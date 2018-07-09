@@ -28,6 +28,11 @@ private:
 	int fcc = CV_FOURCC('D', 'I', 'V', '3');
 	int fps = 10;
 private:
-	
+	bool recording = false;
+private:
+	int Counter = 0;
+	bool startNewRecording = false;
+	bool firstRun = true;
+
 };
 
