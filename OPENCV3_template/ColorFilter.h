@@ -7,6 +7,8 @@
 #include <opencv2\core.hpp>
 #include <opencv2\imgproc.hpp>
 #include <opencv\cv.h>
+
+
 using namespace std;
 using namespace cv;
 /*RGB to HSV*/
@@ -19,10 +21,11 @@ public:
 	Mat HSV;
 	Mat threshold;
 	VideoCapture capture;
-	int VideoCapture();
+	virtual int VideoCapture();
 public:
 	void createTrackbars();
 public:
+	int x = 0, y = 0;
 	int max_hue = 256;
 	int min_hue = 0;
 	int max_saturation = 256;
@@ -40,7 +43,7 @@ public:
 	const int numDetectObjects = 50;
 	const int minObjectArea = 20 * 20;
 	const int maxObjectArea = windowHeight * windowWidth / 1.5;
-private:
+protected:
 	bool trackObjects = 0;
 	bool switchMorphOp = 0;
 	bool switchHSV = 0;

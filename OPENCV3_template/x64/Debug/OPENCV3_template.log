@@ -1,18 +1,3 @@
-﻿  ColorFilter.cpp
-d:\илья\разарботка\c++\opencv3_template\opencv3_template\colorfilter.h(42): warning C4244: инициализация: преобразование "double" в "const int", возможна потеря данных
-d:\илья\разарботка\c++\opencv3_template\opencv3_template\colorfilter.cpp(20): warning C4474: "sprintf_s" : для строки формата передано слишком много аргументов
-  d:\илья\разарботка\c++\opencv3_template\opencv3_template\colorfilter.cpp(20): note: заполнители и их параметры ожидают переменное число аргументов в количестве 0, но было предоставлено 1
-d:\илья\разарботка\c++\opencv3_template\opencv3_template\colorfilter.cpp(21): warning C4474: "sprintf_s" : для строки формата передано слишком много аргументов
-  d:\илья\разарботка\c++\opencv3_template\opencv3_template\colorfilter.cpp(21): note: заполнители и их параметры ожидают переменное число аргументов в количестве 0, но было предоставлено 1
-d:\илья\разарботка\c++\opencv3_template\opencv3_template\colorfilter.cpp(22): warning C4474: "sprintf_s" : для строки формата передано слишком много аргументов
-  d:\илья\разарботка\c++\opencv3_template\opencv3_template\colorfilter.cpp(22): note: заполнители и их параметры ожидают переменное число аргументов в количестве 0, но было предоставлено 1
-d:\илья\разарботка\c++\opencv3_template\opencv3_template\colorfilter.cpp(23): warning C4474: "sprintf_s" : для строки формата передано слишком много аргументов
-  d:\илья\разарботка\c++\opencv3_template\opencv3_template\colorfilter.cpp(23): note: заполнители и их параметры ожидают переменное число аргументов в количестве 0, но было предоставлено 1
-d:\илья\разарботка\c++\opencv3_template\opencv3_template\colorfilter.cpp(24): warning C4474: "sprintf_s" : для строки формата передано слишком много аргументов
-  d:\илья\разарботка\c++\opencv3_template\opencv3_template\colorfilter.cpp(24): note: заполнители и их параметры ожидают переменное число аргументов в количестве 0, но было предоставлено 1
-d:\илья\разарботка\c++\opencv3_template\opencv3_template\colorfilter.cpp(25): warning C4474: "sprintf_s" : для строки формата передано слишком много аргументов
-  d:\илья\разарботка\c++\opencv3_template\opencv3_template\colorfilter.cpp(25): note: заполнители и их параметры ожидают переменное число аргументов в количестве 0, но было предоставлено 1
-d:\илья\разарботка\c++\opencv3_template\opencv3_template\colorfilter.cpp(86): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-d:\илья\разарботка\c++\opencv3_template\opencv3_template\colorfilter.cpp(95): warning C4244: =: преобразование "double" в "int", возможна потеря данных
-d:\илья\разарботка\c++\opencv3_template\opencv3_template\colorfilter.cpp(96): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+﻿  OPENCV3_template.cpp
+d:\илья\разарботка\c++\opencv3_template\opencv3_template\colorfilter.h(45): warning C4244: инициализация: преобразование "double" в "const int", возможна потеря данных
   OPENCV3_template.vcxproj -> D:\Илья\Разарботка\c++\OPENCV3_template\x64\Debug\OPENCV3_template.exe

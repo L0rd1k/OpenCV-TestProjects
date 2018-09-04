@@ -5,6 +5,7 @@
 VideoWriting::VideoWriting()
 {
 }
+
 VideoWriting::~VideoWriting()
 {
 }
@@ -25,6 +26,7 @@ int VideoWriting::CaptureValidation()
 	else
 	{
 		cout << "Initialization is going successfully" << endl;
+		cout << "Initialization is going successfully" << endl;
 		namedWindow("Webcam feed", CV_WINDOW_AUTOSIZE);
 	}
 }
@@ -33,6 +35,8 @@ int VideoWriting::VideoWriteValidation()
 {
 	cv::Size frameSize(cap.get(CV_CAP_PROP_FRAME_WIDTH), cap.get(CV_CAP_PROP_FRAME_HEIGHT));
 	writer = VideoWriter(filename, fcc, fps, frameSize);
+	
+
 
 	if (!writer.isOpened())
 	{
@@ -67,14 +71,14 @@ int VideoWriting::VideoPlaying()
 			Counter++;
 			this->filename = "D:\\myVideo" + intToString(Counter) + ".avi";
 			cv::Size frameSize(cap.get(CV_CAP_PROP_FRAME_WIDTH), cap.get(CV_CAP_PROP_FRAME_HEIGHT));
-			writer = VideoWriter(filename, fcc, fps, frameSize);		
+			writer = VideoWriter(filename, fcc, fps, frameSize);
 		}
-
 
 		if (recording == true)
 		{
 			writer.write(frame);
 			putText(frame, "REC* - YES", Point(0, 15), 1, 1, Scalar(0, 0, 255));
+
 		}
 		else
 		{

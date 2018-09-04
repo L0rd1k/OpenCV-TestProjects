@@ -95,7 +95,7 @@ void ColorFilter::TrackObject(int &x, int &y, Mat threshold, Mat &RGB)
 					x = moment.m10 / area;
 					y = moment.m01 / area;
 					objectFound = true;
-					refArea = area;
+					refArea = area; 
 				}
 				else objectFound = false;
 			}
@@ -111,7 +111,6 @@ void ColorFilter::TrackObject(int &x, int &y, Mat threshold, Mat &RGB)
 
 int ColorFilter::VideoCapture()
 {
-	int x = 0 , y = 0;
 	capture.open(0); // open stram from WEb-cam (1), laptop's Web-cam (0)
 	capture.set(CV_CAP_PROP_FRAME_WIDTH, windowWidth); 
 	capture.set(CV_CAP_PROP_FRAME_HEIGHT, windowHeight);
